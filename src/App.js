@@ -13,7 +13,7 @@ class App extends Component {
           <h1 className="App-title">Neo4j Buzzword Bingo Hackathon</h1>
         </header>
         <p className="App-intro">
-          Be sure to register your team on the <a href="https://hackdash.org/dashboards/graphbuzz">HackDash</a>
+          Be sure to register your team on the <a href="https://hackdash.org/dashboards/graphbuzz">HackDash</a>. <a href="http://neo4j-users-slack-invite.herokuapp.com/">Join the Neo4j Slack workspace</a> and ask questions in #graph-hack-2018 channel.
         </p>
         <Bingocard></Bingocard>
 
