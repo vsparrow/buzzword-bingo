@@ -54,80 +54,84 @@ export const data = [
   },
   {
     title: "Java Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    description: "The official Neo4j driver for Java",
     links: [
-        { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+        { text: "Getting started guide", 
+           url: "https://neo4j.com/developer/java/" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["Java", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Neo4j JavaScript Driver",
+    description: "The official Neo4j driver for JavaScript",
     links: [
         { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+           url: "https://neo4j.com/developer/javascript/" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["JavaScript", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Python Neo4j Driver",
+    description: "The official Neo4j driver for Python",
     links: [
         { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+           url: "https://neo4j.com/developer/python/" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["Python", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Go Neo4j Driver",
+    description: "The official Neo4j driver for Go",
     links: [
         { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+           url: "https://github.com/neo4j/neo4j-go-driver" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["Go", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "seabolt",
+    description: "Neo4j Bolt Connector for C",
     links: [
-        { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+        { text: "Github", 
+           url: "https://github.com/neo4j-drivers/seabolt" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["C", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Neo4j PHP Client",
+    description: "Using Neo4j With PHP",
     links: [
         { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+           url: "https://neo4j.com/developer/php/" 
+        },
+        {
+            text: "Github",
+            url: "https://github.com/neo4j-drivers/seabolt"
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["PHP", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Ruby",
+    description: "Using Neo4j With Ruby",
     links: [
         { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+           url: "https://neo4j.com/developer/ruby/" 
         }
     ],
-    tags: [".NET", "Neo4j Driver"]
+    tags: ["Ruby", "Neo4j Driver"]
   },
   {
-    title: ".NET Neo4j Driver",
-    description: "The official Neo4j driver for .NET",
+    title: "Pyneo",
+    description: "Py2neo is a client library and toolkit for working with Neo4j from within Python applications and from the command line.",
     links: [
-        { text: "Get started", 
-           url: "https://neo4j.com/developer/dotnet/" 
+        { text: "Documentation", 
+           url: "https://py2neo.org/v4/" 
         }
     ],
     tags: [".NET", "Neo4j Driver"]
