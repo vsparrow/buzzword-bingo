@@ -4,7 +4,8 @@ import './App.css';
 import Bingocard from './Bingocard';
 
 class App extends Component {
-
+  state = { display: [], select: false}
+  
   render() {
     return (
       <div className="App">
@@ -17,7 +18,7 @@ class App extends Component {
         </p>
 
         <p className="App-intro"><a href="http://neo4j-users-slack-invite.herokuapp.com/">Join the Neo4j Slack workspace</a> and ask questions in #graph-hack-2018 channel.</p>
-        <Bingocard></Bingocard>
+        <Bingocard state={this.state}></Bingocard>
 
       </div>
     );

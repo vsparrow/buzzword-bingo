@@ -5,7 +5,9 @@ import { data } from "./data";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import { withStyles } from "@material-ui/core";
-
+console.log("**********************");
+console.log(this.props);
+console.log("**********************");
 const styles = theme => ({
   container: {
     display: "grid",
@@ -45,28 +47,40 @@ function shuffle(array) {
   return array;
 }
 
-const Bingocard = props => {
-  const buzzwords = shuffle(data);
+class Bingocard extends React.Component {
+  state = {
+    selected: []
+  }
 
-  return (
-    <div>
-      <Typography variant="subheading" gutterBottom>
-        Choose from our awesome "Buzzwords" (aka Neo4j integrations)
-      </Typography>
-      <Grid container spacing={24}>
-        {buzzwords.map(o => (
-          <Grid item xs={6} md={3}>
-            <Buzzword
-              title={o.title}
-              description={o.description}
-              links={o.links}
-              tags={o.tags}
-            />
-          </Grid>
-        ))}
-      </Grid>
-    </div>
-  );
+  handleClick = (tags) => {
+    let arr = [...tags]
+    this.setState({selected: arr}, ()=>console.log(this.state.selected))
+  }
+
+// console.log(this.props)
+  render() {
+    const buzzwords = shuffle(data);
+    return (
+      <div>
+        <Typography variant="subheading" gutterBottom>
+          Choose from our awesome "Buzzwords" (aka Neo4j integrations)
+        </Typography>
+        <Grid container spacing={24}>
+          {buzzwords.map(o => {
+            return (
+              <Grid item xs={6} md={3}>
+                <Buzzword
+                  handleClick={this.handleClick}
+                  {...o}
+                />
+              </Grid>
+            )}
+          )}
+        </Grid>
+      </div>
+    );
+  }
+
 };
 
 export default withStyles(styles)(Bingocard);
