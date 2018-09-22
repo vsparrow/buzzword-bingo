@@ -450,7 +450,7 @@ export const data = [
     links: [
       {
         text: "Access heere with user:password of stackoverflow:stackoverflow",
-        url: "https://stackdata.neo4jlabs.com:7473/browser/"
+        url: "https://stackdata.neo4jlabs.com/browser/"
       }
     ],
     tags: ["Dataset"]
