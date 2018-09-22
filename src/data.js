@@ -271,7 +271,9 @@ export const data = [
     links: [
       {
         text: "Graph Gist Portal",
-        url: "https://portal.graphgist.org/",
+        url: "https://portal.graphgist.org/"
+      },
+      {
         text: "Example Graph Gists",
         url: "https://neo4j.com/graphgists/"
       }
@@ -539,5 +541,49 @@ export const data = [
       }
     ],
     tags: ["Dataset"]
+  },
+  {
+    title: "Trumpworld Graph",
+    description:
+      "People and companies connected to the administration, from Buzzfeed imported into Neo4j.",
+    links: [
+      {
+        text: "Neo4j Sandbox",
+        url: "https://neo4j.com/sandbox-v2/"
+      },
+      {
+        text: "Combining Trumpworld With Government Contracting Data",
+        url: "https://neo4j.com/blog/depth-graph-analysis-paradise-papers/"
+      }
+    ],
+    tags: ["Dataset"]
+  },
+  {
+    title: "Neo4j Desktop",
+    description: "The easiest way to install and use Neo4j.",
+    links: [
+      {
+        text: "Download",
+        url: "https://neo4j.com/download/"
+      }
+    ],
+    tags: ["Neo4j"]
+  },
+  {
+    title: "??????",
+    description: "Are we missing a cool Neo4j integration or dataset?",
+    links: [
+      {
+        text:
+          "Drop us a note in the Neo4j Slack on #graph-hack-2018 and we'll add it!",
+        url: "http://neo4j-users-slack-invite.herokuapp.com/"
+      },
+      {
+        text: "Or submit a pull request here :-)",
+        url:
+          "https://github.com/johnymontana/buzzword-bingo/blob/master/src/data.js"
+      }
+    ],
+    tags: ["Neo4j"]
   }
 ];
