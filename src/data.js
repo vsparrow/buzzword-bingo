@@ -146,7 +146,7 @@ export const data = [
     tags: ["Ruby", "Neo4j Driver"]
   },
   {
-    title: "Pyneo",
+    title: "Py2neo",
     description:
       "Py2neo is a client library and toolkit for working with Neo4j from within Python applications and from the command line.",
     links: [
